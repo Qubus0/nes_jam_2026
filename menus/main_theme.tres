@@ -1,0 +1,6 @@
+[gd_resource type="Theme" format=3 uid="uid://k6rpki6rc2ny"]
+
+[ext_resource type="FontFile" uid="uid://dr8jhk3d5ka4x" path="res://menus/fonts/the-video-arcade-game-font/the-video-arcade-game-font.ttf" id="1_e0fnq"]
+
+[resource]
+default_font = ExtResource("1_e0fnq")

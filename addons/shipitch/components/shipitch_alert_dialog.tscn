@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://addons/shipitch/components/shipitch_alert_dialog.gd" id="1"]
+
+[node name="ItchExportAlertDialog" type="AcceptDialog"]
+script = ExtResource("1")
+min_size = Vector2(350, 0)

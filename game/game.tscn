@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://br4m14bakj183"]
+
+[ext_resource type="Texture2D" uid="uid://cmm4wjjuy828j" path="res://icon.svg" id="1_l1rk1"]
+
+[node name="Game" type="Node2D" unique_id=1294535403]
+
+[node name="Icon" type="Sprite2D" parent="." unique_id=622362957]
+position = Vector2(125, 99)
+texture = ExtResource("1_l1rk1")
+
+[node name="Label" type="Label" parent="." unique_id=368336044]
+offset_left = 69.0
+offset_top = 175.0
+offset_right = 182.0
+offset_bottom = 198.0
+text = "put game here"
