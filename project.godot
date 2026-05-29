@@ -42,6 +42,7 @@ enabled=PackedStringArray("res://addons/script-ide/plugin.cfg", "res://addons/sh
 
 folder_colors={
 "res://addons/": "gray",
+"res://builds/": "gray",
 "res://game/": "blue",
 "res://menus/": "green"
 }

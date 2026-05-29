@@ -15,12 +15,13 @@ corner_radius_bottom_right = 3
 corner_radius_bottom_left = 3
 corner_detail = 5
 
-[node name="PauseSettings" type="CanvasLayer" unique_id=1084284580 node_paths=PackedStringArray("volume_master", "volume_music", "volume_sounds")]
+[node name="PauseSettings" type="CanvasLayer" unique_id=1084284580 node_paths=PackedStringArray("volume_master", "volume_music", "volume_sounds", "fullscreen_toggle")]
 process_mode = 3
 script = ExtResource("1_w04gj")
 volume_master = NodePath("PanelContainer/BoxContainer/BoxContainer/VolumeMaster")
 volume_music = NodePath("PanelContainer/BoxContainer/BoxContainer/VolumeMusic")
 volume_sounds = NodePath("PanelContainer/BoxContainer/BoxContainer/VolumeSounds")
+fullscreen_toggle = NodePath("PanelContainer/BoxContainer/BoxContainer/FullscreenToggle")
 
 [node name="PanelContainer" type="PanelContainer" parent="." unique_id=1663113793]
 process_mode = 2
@@ -97,6 +98,6 @@ focus_next = NodePath("../../BoxContainer2/NextButton")
 step = 5.0
 value = 70.0
 
-[node name="CheckBox" type="CheckBox" parent="PanelContainer/BoxContainer/BoxContainer" unique_id=476822498]
+[node name="FullscreenToggle" type="CheckBox" parent="PanelContainer/BoxContainer/BoxContainer" unique_id=476822498]
 layout_mode = 2
 text = "Fullscreen"
